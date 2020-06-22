@@ -80,8 +80,9 @@ input :hover{
 
 .foot {
   background-color: white;
-  margin-top: -0.9rem;
+  margin-top: 2rem;
   width:100vw;
   text-align: justify;
   padding-left: 40vw;
-}
+  padding-bottom: 10vh;
+  margin-bottom: -30px;
