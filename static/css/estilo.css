@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+header {
+    background-color: #384259;
+    margin-top: auto;
+    text-align: center;
+    box-shadow: darkslategray;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: #384259;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.Row {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  text-align: center;
+}
+.Column{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.ContainerVideo {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+input[type=submit] {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #f73859 ;
+  border-radius: 1em;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+  height: 50px;
+}
+
+input :hover{
+  background-color: whitesmoke;
+  color: #384259;
+}
+
+.Column img{ 
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  filter: invert(100%);
+}
+
+.audio-zap {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin-left: 30vw;
+  background-color: #f1f3f4;
+  width: 40vw;
+  border-radius: 5px;
+}
+
+.foot {
+  background-color: white;
+  margin-top: -0.9rem;
+  width:100vw;
+  text-align: justify;
+  padding-left: 40vw;
+}
