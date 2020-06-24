@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <html>
     <head>
-        <link rel="stylesheet" <link rel= "stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">>
+        <link rel="stylesheet" link rel= "stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
         <title>
             Zapelim
         </title>
@@ -12,31 +12,31 @@
             </div>
             <div class="Row">
                 <div class="Column" class="icons">
-                    <div class="item1"><img src="{{url_for('static',filename='/img/world.png')}}" alt="icon"></div>
+                    <div class="item1"><img src="{{url_for('static',filename='img/world.png')}}" alt="icon"></div>
                     <div class="item1"><h1>1.5 Bi</h1></div>
                     <div class="item1"><text>de usuários no Whatsapp</text></div>
                 </div>
                 <div class="Column" class="icons">
-                    <div class="item1"><img src="{{url_for('static',filename='/img/brazil.png')}}" alt="brazil"></div>
+                    <div class="item1"><img src="{{url_for('static',filename='img/brazil.png')}}" alt="brazil"></div>
                     <div class="item1"><h1>128 milhões</h1></div>
                     <div class="item1"><text>de usuários ativos no Brasil</text></div>
                 </div>
                 <div class="Column" class="icons">
-                    <div class="item1"><img src="{{url_for('static',filename='/img/whatsapp.png')}}" alt="wpp"></div>
+                    <div class="item1"><img src="{{url_for('static',filename='img/whatsapp.png')}}" alt="wpp"></div>
                     <div class="item1"><h1>76%</h1></div>
                     <div class="item1"><text>utilizam o app diariamente</text></div>
                 </div>
             </div>
             <div>
                 <audio controls="" class="audio-zap" controlsList="nodownload" >
-                    <source src="{{url_for('static',filename='/img/audio.mp3')}}" type="audio/mpeg">
+                    <source src="{{url_for('static',filename='img/audio.mp3')}}" type="audio/mpeg">
                   Your browser does not support the audio element.
                   </audio>                  
             </div>
             <div class="Row">
                 <div class="Column">
                     <div class="button" >
-                        <form action="https://wa.me/554796028356?text=Ol%C3%A1!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20Zapelim.%20">
+                        <form action="https://web.whatsapp.com/send?phone=554796028356&text=Olá.%20Quero%20saber%20mais%20informações%20sobre%20a%20Zapelim!">
                         <input type="submit" value="Quero receber mais informações!">
                         </form>
                     </div>
@@ -47,9 +47,12 @@
                 <div class="item" name = "email">
                     
                 </div>
-                <div class="foot">
-                    <p>E-mail: contazapelim@gmail.com</p>
-                    <p>Whatsapp: +55 47 996 028 356</p>
+                <div class="footer">
+                    <div class="RowFooter">
+                        <p>E-mail: contazapelim@gmail.com</p>
+                        <div>       </div>
+                        <p>Whatsapp: +55 47 996 028 356</p>
+                    </div>
                 </div>
             </div>
         </body>
